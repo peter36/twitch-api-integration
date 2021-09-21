@@ -1,7 +1,7 @@
 var userid = "<your_userId>";
 var clientId = "<your_clientId>";
 var redirectURI = "http://localhost:8080";
-var scope = 'chat:read+whispers:read+bits:read';
+var scope = "chat:read+whispers:read+bits:read";
 var ws;
 
 function parseFragment(hash) {
